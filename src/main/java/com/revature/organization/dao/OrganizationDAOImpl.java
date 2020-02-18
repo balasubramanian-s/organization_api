@@ -36,8 +36,9 @@ public class OrganizationDAOImpl implements OrganizationDAO {
 	public void save(Organization org) {
 		Session currentSession = entityManager.unwrap(Session.class);
 		currentSession.saveOrUpdate(org);
-
+		
 	}
+	
 
 	@Override
 	public void delete(int id) {

@@ -13,4 +13,6 @@ public interface OrganizationDAO {
 	void save(Organization org);
 	
 	void delete(int id);
+
+	
 }
